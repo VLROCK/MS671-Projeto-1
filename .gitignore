@@ -1,1 +1,37 @@
-.venv
+### --- Python & Ambientes Virtuais ---
+# Ignora a pasta do ambiente virtual que criamos (NUNCA envie isso ao Git)
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+### --- Jupyter Notebook ---
+# Ignora os arquivos de "backup" automático do Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ignora arquivos de perfil do IPython
+IPython/
+
+### --- VS Code ---
+# Ignora configurações de interface do VS Code
+.vscode/
+# Se quiser manter as extensões recomendadas, comente a linha acima e use:
+# .vscode/*.json
+# !.vscode/extensions.json
+
+### --- Sistema Operacional (macOS) ---
+# Ignora o arquivo de visualização de pastas do Mac
+.DS_Store
+
+### --- Dados e Logs ---
+# Se você tiver arquivos de dados pesados, é melhor ignorá-los
+# *.csv
+# *.json
+# *.log
+# *.sqlite
