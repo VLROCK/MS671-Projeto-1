@@ -77,7 +77,7 @@ def manual_nms(boxes, scores, classes, iou_threshold):
 
         mascara_final = mascara_classe & mascara_iou
 
-        ordem = ordem[1:][not mascara_final]
+        ordem = ordem[1:][~mascara_final]
 
     return keep
 
