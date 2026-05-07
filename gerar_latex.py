@@ -41,3 +41,7 @@ def gerar_latex_para_imagens(diretorio_fotos, caminho_no_latex="results"):
 
 # Exemplo de uso:
 # gerar_latex_para_imagens("results_modificadas", "capitulo_resultados/imagens/")
+
+
+if __name__ == '__main__':
+    gerar_latex_para_imagens("trabalho1/results_modificadas")
